@@ -1,18 +1,24 @@
 import PySimpleGUI as sg
 
 
-def hacer_grafico(m, dicc):
+def hacer_grafico(m, dicc, deff, cantP, cantTP):
     colum = [[sg.Button('Sustantivo', button_color=('black', 'red'))],
             [sg.Button('Adjetivo', button_color=('black', 'green'))],
             [sg.Button('Verbo', button_color=('black', 'yellow'))]]
-    print(dicc)
+    pistas = []
 
-    def layout_g(col):
+    if deff:
+        for elem in dicc:
+            for x in dicc[elem]:
+                pistas.append(sg.Text(text=x[1]))
+    print(pistas)
+
+
+    def layout_g(col, pist=[sg.Text('')]):
         return [[sg.Column(col)],
                 [sg.Graph(canvas_size=(500, 500), graph_bottom_left=(-500, -500), graph_top_right=(500, 500),
-                      background_color='white', key='graph', enable_events=True)]]
-
-    window = sg.Window('Sopa de Letras', layout_g(colum), grab_anywhere=False).Finalize()
+                      background_color='white', key='graph', enable_events=True)], pist]
+    window = sg.Window('Sopa de Letras', layout_g(colum, pistas), grab_anywhere=False).Finalize()
     graph = window.Element('graph')
 
     x = -499

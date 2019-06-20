@@ -53,4 +53,4 @@ else:
         else:
             M.matriz_vertical(dicc, matr)
         # Matriz graficada
-        g.hacer_grafico(matr,dicc)
+        g.hacer_grafico(matr, dicc, definiciones, cantPalIngresadas, cantTipoPal)
