@@ -1,4 +1,4 @@
-import Progama_principal as p
+import Funciones as p
 import PySimpleGUI as sg
 import Matriz as M
 import Grafico as g
