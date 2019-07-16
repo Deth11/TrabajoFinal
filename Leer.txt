@@ -5,3 +5,5 @@ Pedro Chiappani
 El archivo a ejecutarse debe ser el ProgPrincipal.py
 
 No llegamos a terminar algunas partes, estan detalladas en Faltas.txt
+
+Para los sensores los archivos a ejecutarse son TomarTemp.py y Muestra.py
