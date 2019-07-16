@@ -1,0 +1,4 @@
+No pudimos hacer que cambie la fuente de las letras.
+No llegamos a poner las pistas, pero sabemos como.
+No llegamos a tomar el valor de las oficinas para el tema.
+No pude hacer que primero seleccione las palabras y despues lo verifique.
