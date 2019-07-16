@@ -4,4 +4,4 @@ Pedro Chiappani
 
 El archivo a ejecutarse debe ser el ProgPrincipal.py
 
-No llegamos a terminar la parte de hacer el grafico de la sopa y algunas cosas que lo involucran
+No llegamos a terminar algunas partes, estan detalladas en Faltas.txt
