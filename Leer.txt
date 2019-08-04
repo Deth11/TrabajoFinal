@@ -2,8 +2,10 @@ León Carcecglia
 
 Pedro Chiappani
 
-El archivo a ejecutarse debe ser el ProgPrincipal.py
+Para jugar a la sopa de letra se debe ejecutar ProgPrincipal.py
+
+Para tomar la temperatura de la oficicina ejecutar TomarTemp.py
+
+Para mostrar la temperatura en la matriz de led ejecutar Muestra.py
 
 No llegamos a terminar algunas partes, estan detalladas en Faltas.txt
-
-Para los sensores los archivos a ejecutarse son TomarTemp.py y Muestra.py
