@@ -67,13 +67,6 @@ while True:
             if values[0] == x['nombre']:
                 w.Close()
                 break
-        """if int(x['temperatura']) >= 20:
-           sg.ChangeLookAndFeel('Reds')  
-           # Cambia la estetica de la matriz a una mas veraniega
-        else:
-            sg.ChangeLookAndFeel('BluePurple')  
-            # Cambia la estetica de la matriz a una mas invernal"""
-        
         (sg.ChangeLookAndFeel('Reds')
         ) if int(x['temperatura']) >= 20 else (
                             sg.ChangeLookAndFeel('BluePurple')) 
