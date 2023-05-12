@@ -7,4 +7,4 @@ Entrega del trabajo final de la materia Seminario de Lenguajes(Python) de la Fac
 
 Para tomar los datos de la temperatura y humedad del ambiente se debera ejecutar el archivo TomarTemp.py. Si se quiere mostrar en la matriz de led ejecutar Muestra.py
 
-Si se quiere utilizar la Sopa de Letras, se debera utilizar el archivo ProgPrincipal.py
+Si se quiere utilizar la Sopa de Letras, se debera utilizar el archivo prog_principal.py
